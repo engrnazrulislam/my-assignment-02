@@ -1,0 +1,93 @@
+/* Header Title and Navigation Styles */
+*{
+    margin:0;
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+.top-header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.nav-title > h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px 200px;
+}
+.ul-item {
+    display: flex;
+    list-style: none;
+    gap:20px;
+}
+.ul-item li > a{
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    text-decoration: none;
+}
+.header-title{
+    display: flex;
+    flex-direction: column;
+    padding:0px 200px;
+    align-items: center;
+}
+.header-title-container{
+    text-align: center;
+}
+.header-title-container > h2{
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #131313;
+
+}
+.header-title-container > p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+    padding:20px 200px;
+}
+.button{
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border:none;
+    border-radius: 8px;
+    padding:20px 0px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.top-img-container > img{
+    width:100%;
+    padding:50px 0px;
+}
+/* Apply Styes to Middle section  */
+.middle-section{
+    display: flex;
+    align-items: center;
+}
+.middle-section-img{
+    padding-top: 50px;
+    padding-left: 220px;
+}
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    list-style-type: none;
+    gap:20px;
+}
+.middle-grid-img{
+    width:100%;
+}
+.middle-section-others{
+    padding-left: 50px;
+}
